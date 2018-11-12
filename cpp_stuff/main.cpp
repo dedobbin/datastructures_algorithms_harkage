@@ -27,7 +27,8 @@ int main(int argc, char * argv) {
 	std::cout << "Original vector: " << vector_to_string(list) << std::endl;
 	
 	std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
-	Sort::quick_sort(list.begin(), list.end());
+	//Sort::quick_sort(list.begin(), list.end());
+	Sort::bubble_sort(list.begin(), list.end());
 	std::chrono::duration<double> duration_seconds = std::chrono::system_clock::now() - start;
 
 	std::cout << "Altered vector: " << vector_to_string(list) << std::endl;

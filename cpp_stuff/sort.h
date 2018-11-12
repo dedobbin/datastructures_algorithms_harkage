@@ -6,7 +6,7 @@
 class Sort {
 public:
 	static void quick_sort(std::vector<int>::iterator begin, std::vector<int>::iterator end);
-	static void print(std::vector<int> input, int wall);
+	static void bubble_sort(std::vector<int>::iterator begin, std::vector<int>::iterator end);
 };
 
 #endif;

@@ -32,3 +32,19 @@ void Sort::quick_sort(std::vector<int>::iterator begin, std::vector<int>::iterat
 	Sort::quick_sort(begin + wall_offset, end);
 	return;
 }
+
+void Sort::bubble_sort(std::vector<int>::iterator begin, std::vector<int>::iterator end){
+	bool finished = false;
+	do {
+		//assume we are finished, if turns out to not be the case, this bool is flipped
+		finished = true;
+		for (std::vector<int>::iterator it = begin; it < end - 1; it++) {
+			if (*it > *(it + 1)) {
+				int tmp = *it;
+				*it = *(it + 1);
+				*(it + 1) = tmp;
+				finished = false;
+			}
+		}
+	} while (!finished);
+}
