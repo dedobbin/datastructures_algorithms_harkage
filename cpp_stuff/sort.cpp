@@ -3,7 +3,19 @@
 #include <algorithm>
 #include <iterator>
 #include <cmath>
+#include <random>
 #include "sort.h";
+
+std::vector<int> Sort::generate_list(int amount, int max, int min) {
+	std::vector<int> list(10);
+	std::random_device seed;
+	std::mt19937 generator(seed());
+	std::uniform_int_distribution<> distribution(min, max);
+	for (std::vector<int>::iterator it = list.begin(); it < list.end(); it++) {
+		*it = distribution(generator);
+	}
+	return list;
+}
 
 void Sort::quick_sort(std::vector<int>::iterator begin, std::vector<int>::iterator end) {
 	//Grab pivot, last value.
