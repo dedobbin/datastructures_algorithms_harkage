@@ -47,7 +47,6 @@ void islandChallenge::IslandMap::print() {
 }
 
 void islandChallenge::IslandMap::solve(){
-  const int MAX_ISLANDS = 99999;
   int uniqueMark = 2;
   for (int y = 0; y < h; y++) {
     for (int x = 0; x < w; x++) {
