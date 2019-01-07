@@ -21,6 +21,12 @@
     <ClCompile Include="sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="islandChallenge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="islandChallenge.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sort.h">
