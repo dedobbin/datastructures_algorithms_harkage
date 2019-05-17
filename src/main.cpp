@@ -9,6 +9,8 @@
 #include "islandChallenge.h"
 #include "sort.h"
 
+#include "Test.h"
+
 /**
 * Messing arround with algorithms to get more used to cpp
 **/

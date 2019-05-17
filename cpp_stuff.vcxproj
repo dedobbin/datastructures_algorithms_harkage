@@ -115,10 +115,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="islandChallenge.cpp" />
-    <ClCompile Include="islandChallenge.h" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="sort.cpp" />
+    <ClCompile Include="src/islandChallenge.cpp" />
+    <ClCompile Include="src/islandChallenge.h" />
+    <ClCompile Include="src/main.cpp" />
+    <ClCompile Include="src/sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sort.h" />
