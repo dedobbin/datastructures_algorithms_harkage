@@ -4,7 +4,7 @@
 #include <iterator>
 #include <cmath>
 #include <random>
-#include "sort.h";
+#include "sort.h"
 
 std::vector<int> Sort::generate_list(int amount, int max, int min) {
 	std::vector<int> list(10);

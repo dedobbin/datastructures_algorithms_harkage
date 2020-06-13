@@ -13,4 +13,4 @@ namespace Util {
     std::uniform_int_distribution<> distribution;
   };
 }
-#endif;
+#endif

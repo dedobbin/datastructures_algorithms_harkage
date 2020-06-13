@@ -42,4 +42,4 @@ class Graph {
   friend std::ostream& operator<< (std::ostream& stream, const Graph& graph);
 };
 
-#endif __GRAPH_H__
+#endif

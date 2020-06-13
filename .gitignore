@@ -2,3 +2,6 @@
 Debug
 .vs
 *.vcxproj.user
+exe
+a.out
+.vscode

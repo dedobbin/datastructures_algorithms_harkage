@@ -21,7 +21,7 @@ static std::string vector_to_string(std::vector<int> input) {
 	return output;
 }
 
-int main(int argc, char * argv) {
+int main(int argc, char * argv[]) {
   
   /*** island challenge ***/
   std::cout << "-- Island challenge --" << std::endl;

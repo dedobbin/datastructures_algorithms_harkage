@@ -29,4 +29,4 @@ private:
   int** grid;
 };
 
-#endif;
+#endif

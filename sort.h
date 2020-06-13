@@ -13,4 +13,4 @@ public:
 	static void bubble_sort(std::vector<int>::iterator begin, std::vector<int>::iterator end);
 };
 
-#endif;
+#endif
