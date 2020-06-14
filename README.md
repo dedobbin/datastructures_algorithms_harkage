@@ -1,2 +1,6 @@
 # cpp_stuff
-Implementations of algorithms and island challenge
+Implementations of 
+
+* Island challenge
+* Quicksort
+* Bubblesort
