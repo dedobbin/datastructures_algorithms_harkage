@@ -1,8 +1,8 @@
 #include <iostream>
 #include <sstream>
 #include <memory>
-#include "util.h"
-#include "graph.h"
+#include "util.hpp"
+#include "graph.hpp"
 
 
 /***** public ************************************/

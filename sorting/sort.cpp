@@ -4,10 +4,10 @@
 #include <iterator>
 #include <cmath>
 #include <random>
-#include "sort.h"
+#include "sort.hpp"
 
 std::vector<int> Sort::generate_list(int amount, int max, int min) {
-	std::vector<int> list(10);
+	std::vector<int> list(amount);
 	std::random_device seed;
 	std::mt19937 generator(seed());
 	std::uniform_int_distribution<> distribution(min, max);

@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <iostream>
-#include "islandChallenge.h"
+#include "island_challenge.hpp"
 
 islandChallenge::IslandMap* islandChallenge::buildMap() {
   int grid[10][10] = { 

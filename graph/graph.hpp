@@ -3,6 +3,11 @@
 
 #include <vector>
 
+/**
+ *	Generating a graph, later turned into A* visualization
+ *	https://github.com/dedobbin/pathfinding_sdl
+ */
+
 //forward declaration
 class Point;
 
