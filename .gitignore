@@ -5,3 +5,4 @@ Debug
 exe
 a.out
 .vscode
+*.o
