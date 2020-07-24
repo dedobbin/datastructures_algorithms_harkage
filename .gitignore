@@ -5,3 +5,5 @@ Debug
 exe
 a.out
 .vscode
+*.gch
+*.o
