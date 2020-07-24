@@ -8,3 +8,11 @@ graph.o: graph.cpp graph.hpp
 
 util.o: util.cpp util.hpp
 	$(GCC) -c util.cpp 
+
+clean:
+	rm -f *.gch;\
+	rm -f *.o;\
+	rm -f a.out;
+
+.PHONY : all clean
+.SILENT: clean
