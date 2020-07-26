@@ -11,7 +11,7 @@
 static std::string vector_to_string(std::vector<int> input) 
 {
 	std::string output = "";
-	for (std::vector<int>::iterator it = input.begin(); it != input.end(); it++) {
+	for (auto it = input.begin(); it != input.end(); it++) {
 		output += std::to_string(*it) + " ";
 	}
 	return output;

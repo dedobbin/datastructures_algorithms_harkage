@@ -11,7 +11,7 @@ std::vector<int> Sort::generate_list(int amount, int max, int min) {
 	std::random_device seed;
 	std::mt19937 generator(seed());
 	std::uniform_int_distribution<> distribution(min, max);
-	for (std::vector<int>::iterator it = list.begin(); it < list.end(); it++) {
+	for (auto it = list.begin(); it < list.end(); it++) {
 		*it = distribution(generator);
 	}
 	return list;
